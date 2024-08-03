@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>load method here</h1>
+   
+    <h2 id="output">output will be display here</h2>
+
+
+    <!-- jquery cdn (internet is required)-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+     setInterval( () => {
+        $("#output").load("gettime.php");
+     },1000);
+    </script>
+
+    <!-- local jquery -->
+     <!--<script src="jquery-min.js"></script>--->
+</body>
+
+</html>

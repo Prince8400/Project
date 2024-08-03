@@ -1,0 +1,2 @@
+
+ Error Code 1049  ErrorDetail  SQLSTATE[HY000] [1049] Unknown database 'prince1' on Wed 26-06-2024 12:01:26PM in file C:\wamp64\www\prince\project\inc\connection.php at lineno 29

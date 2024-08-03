@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url('sky.png');
+        }
+        #owl {
+            position: absolute;
+            left: 300px;
+            top:200px;
+        }
+
+       
+    </style>
+</head>
+
+<body >
+    <img src="owl1.png" id="owl" height="300px">
+
+    <script src="jquery-min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#owl").mouseover(function(){
+                $(this).attr("height","400px");
+            });
+            $("#owl").mouseout(function(){
+                $(this).attr("height","300px");
+            });
+        });
+    </script>
+    
+</body>
+
+</html>
